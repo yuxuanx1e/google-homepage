@@ -1,0 +1,137 @@
+/* Default Style to be applied to entire page */
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+/* Top naviagation Bar styles */
+header nav{ /* Define the parent elememt */
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+header nav ul{ /* Children sit inside the nav element */
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+header nav li a{ /* Styles the anchor texts*/
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    padding: 5px;
+    line-height: 24px;
+    margin: 0 1px;
+}
+.top-nav-texts:hover{ /* Underlines the text when the cursor hovers over it */
+    text-decoration: underline;
+}
+.top-nav-button{
+    display: inline-block;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #4583ec;
+    padding: 0px 12px;
+    margin-left: 0 5px;
+    font-weight: 700;
+    border: 1px solid #4583ec;
+    border-radius: 2px;
+}
+
+/* Main Search Styles */
+img{
+    display: block;
+    width: 300px;
+    margin: 200px auto 23px auto;
+}
+
+#input_container{ /* Parent Element */
+    margin: 0 auto;
+    width: 520px;
+    height: 120px;
+
+}
+
+input[type="text"]{
+    display: block;
+    padding-left: 40px;
+    width: 520px;
+    height: 40px;
+    margin: 0;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url(https://www.logolynx.com/images/logolynx/91/9144376f3a1ba9b5cda7edd4b0d1f7e3.jpeg);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 1px solid #eaeaeb;
+
+}
+.main-buttons{
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+}
+input[type="submit"]{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.7);
+    line-height: 27px;
+    margin: 22px 3px;
+    padding: 5px 17px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+}
+input[type="submit"]:hover{
+    border: 1px solid #c9c7c7;
+    color: #222222;
+}
+
+input[type="text"]:hover{
+    box-shadow:2px 2px 2px 2px lightgray;
+}
+
+/* Bottom Navigation / Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+}
+footer p {
+    padding: 12px 31px;
+    margin: 0;
+    color: #0000008a;
+    font-size: 15px;
+    font-weight: 400;
+    border-top: 1px solid rgba(206, 206, 207, 0.4);
+    border-bottom: 1px solid rgba(206, 206, 207, 0.4);
+
+}
+footer nav ul{
+    padding-top: 0px;
+    padding-left: 26px;
+
+}
+footer nav li a{ /* Styles the anchor texts*/
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0000009a;
+    padding: 5px;
+    line-height: 24px;
+    margin: 0 1px;
+}
+footer nav li a:hover {
+    text-decoration: underline;
+}
+.bottom-nav-right-texts{
+    float: right;
+    padding-right: 26px;
+
+}
