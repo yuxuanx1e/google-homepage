@@ -1,6 +1,6 @@
 # google-homepage
 Creating a dummy google search engine homepage
-First project with TOP
+First project with TOP (This project has been removed by TOP)
 
 Learning Objectively:
 
@@ -17,4 +17,6 @@ Center an element horizontally
 Identify three ways you can include your CSS styles in a page
 Understand how to use classes and ids to target CSS at specific elements on the page
 Build a very basic form (even if it doesn’t “go” anywhere)
+
+[Live Demo](https://yuxuanx1e.github.io/odin-google-homepage/) :point_left:
 
