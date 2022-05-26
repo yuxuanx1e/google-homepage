@@ -1,4 +1,4 @@
-# google-homepage
+# Odin Google Homepage
 Creating a dummy google search engine homepage
 First project with TOP **Note: This project has been removed by TOP**
 
